@@ -105,13 +105,15 @@ function App() {
           <Form.Input
             icon="dollar"
             width={4}
-            label="100.00"
+            label="Value"
+            icon="dollar"
             iconPosition="left"
           />
         </Form.Group>
 
         <Button.Group style={{ marginTop: 20 }}>
           <Button>Cancel</Button>
+          <Button.Or />
           <Button primary>Ok</Button>
         </Button.Group>
       </Form>
